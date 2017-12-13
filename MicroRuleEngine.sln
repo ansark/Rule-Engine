@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRuleEngine", "MicroRuleEngine\MicroRuleEngine.csproj", "{6E1FB0DF-3F83-48EE-BB33-A9C6BF09F911}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MicroRuleEngine.Tests", "MicroRuleEngine.Tests\MicroRuleEngine.Tests.csproj", "{392E9585-525F-4B82-9DA0-C4AC2812C558}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2FBBE4F8-7AD1-4132-89D5-81035CC566BC}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		MicroRuleEngine.vsmdi = MicroRuleEngine.vsmdi
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{F36D3FF0-8BB3-4847-B047-95ABA6690C78}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E1FB0DF-3F83-48EE-BB33-A9C6BF09F911}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E1FB0DF-3F83-48EE-BB33-A9C6BF09F911}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E1FB0DF-3F83-48EE-BB33-A9C6BF09F911}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E1FB0DF-3F83-48EE-BB33-A9C6BF09F911}.Release|Any CPU.Build.0 = Release|Any CPU
+		{392E9585-525F-4B82-9DA0-C4AC2812C558}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{392E9585-525F-4B82-9DA0-C4AC2812C558}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{392E9585-525F-4B82-9DA0-C4AC2812C558}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{392E9585-525F-4B82-9DA0-C4AC2812C558}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F36D3FF0-8BB3-4847-B047-95ABA6690C78}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F36D3FF0-8BB3-4847-B047-95ABA6690C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F36D3FF0-8BB3-4847-B047-95ABA6690C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F36D3FF0-8BB3-4847-B047-95ABA6690C78}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = MicroRuleEngine.vsmdi
+	EndGlobalSection
+EndGlobal
